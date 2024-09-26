@@ -1,6 +1,6 @@
 # Handout 1
 
-Konrad Wojda
+Konrad Wojda, 9307820244
 
 ## Exercise 1
 
@@ -8,11 +8,13 @@ Konrad Wojda
 
 ### Incompatible Turns Table
 
+Firstly we should create a table that shows which turns can be allowed at once. I included only turns that are possible in terms of one-way streets.
+
 | Turn | AB | AC | AE | CE | DB | DC | DE | EB | EC |
 |------|----|----|----|----|----|----|----|----|----|
-| AB   |    | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ |!✅ |
+| AB   |    | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ |
 | AC   |    |    | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ |
-| AE   |    |    |    | ❌ |!✅ | ✅ | ❌ | ❌ | ❌ |
+| AE   |    |    |    | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | CE   |    |    |    |    | ❌ | ❌ | ❌ | ✅ | ✅ |
 | DB   |    |    |    |    |    | ✅ | ✅ | ❌ | ❌ |
 | DC   |    |    |    |    |    |    | ✅ | ✅ | ❌ |
@@ -22,9 +24,23 @@ Konrad Wojda
 
 ### Graph showing incompatible turns
 
+Next, I created a graph which connects vertices of turns that cannot be allowed at once. 
+
 ![](graph1.png)
 
 ### Colored graph
+
+Next, I solved graph coloring problem in order to get the fewest groups of turns allowed at one time. I used python library called `networkx` to solve this problem. Code and output graph is given below.  
+
+As a result I got three groups of turns, which are represented by different colors of vertices of the graph.  
+
+First group is allowing cars to turn from D to B and C and also allows cars to turn from A to E.
+
+Second group is allowing cars to turn from A to B and C and also allows cars to turn from D to E.
+
+Third group is allowing cars to turn from E to B and C and also allows cars to turn from C to E.
+
+We can see that all groups allow turns to B, C from one street and to E from second one.
 
 ![](colored_graph.png)
 
@@ -167,6 +183,12 @@ INSERTION-SORT(A)
 Changes: `A[i] > key` changed to `A[i] < key`. Now arrays will be sorted in decreasing order.
 
 ## Exercise 4
+
+This problem is known as Longest increasing subsequence. Based on online sources I created a small python code that computes this subsequence. Answer is given below.
+Sources:  
+* https://en.wikipedia.org/wiki/Longest_increasing_subsequence
+* https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+* http://algorytmika.wikidot.com/najdluzszy-podciag-rosnacy
 
 ### Code
 
