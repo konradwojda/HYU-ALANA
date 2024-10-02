@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "iosfwd": "cpp"
-    }
+    },
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false
 }
