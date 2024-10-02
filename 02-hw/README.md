@@ -4,7 +4,7 @@ header-includes:
   - \usepackage[T1]{fontenc}
 ---
 
-# Algorithms Analysis - Handout 1
+# Algorithms Analysis - Handout 2
 
 Konrad Wojda, 9307820244
 
