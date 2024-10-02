@@ -33,6 +33,8 @@ $$
 x^2 \leq x^3 \cdot c
 $$
 
+divide by $x^3$
+
 $$
 \frac{1}{x} \leq c
 $$
@@ -45,6 +47,8 @@ $x^3$ grows faster than $x^2$, so $x^3$ cannot be bounded above by $x^2$.
 $$
 x^3 \leq x^2 \cdot c
 $$
+
+divide by $x^2$
 
 $$
 x \leq c
@@ -59,6 +63,8 @@ The term $\Omega(x^4)$ suggests a lower bound, but $5x^3 + 3x^2$ grows slower th
 $$
 5x^3 + 3x^2 \geq c \cdot x^4
 $$
+
+divide by $x^4$
 
 $$
 \frac{5}{x} + \frac{3}{x^2} \geq c
@@ -149,3 +155,25 @@ end
 ```
 
 ## Exercise 3
+
+The following pictures show sorting an array using heap sort.
+
+![](./heapsort-imgs/heap1.drawio.png)
+
+![](./heapsort-imgs/heap2.drawio.png)
+
+![](./heapsort-imgs/heap3.drawio.png)
+
+![](./heapsort-imgs/heap4.drawio.png)
+
+![](./heapsort-imgs/heap5.drawio.png)
+
+![](./heapsort-imgs/heap6.drawio.png)
+
+![](./heapsort-imgs/heap7.drawio.png)
+
+![](./heapsort-imgs/heap8.drawio.png)
+
+![](./heapsort-imgs/heap9.drawio.png)
+
+Sorted array is: **[1,2,6,7,8,12,19,22,28]**
