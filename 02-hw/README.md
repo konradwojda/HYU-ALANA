@@ -133,7 +133,7 @@ $(\frac{3}{2})^n$ grows exponentially, which makes this inequality true for lagr
 
 ## Exercise 2
 
-![alt text](image-1.png)
+![](image-1.png)
 
 ```
 MAX-HEAPIFY(A, i)
