@@ -1,4 +1,4 @@
-# Handout 1
+# Algorithms Analysis - Handout 1
 
 Konrad Wojda, 9307820244
 
