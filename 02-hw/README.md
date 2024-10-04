@@ -85,8 +85,8 @@ We can ignore terms $5x + 2$ for large $x$, for which both lower and upper bound
 
 For example $c_1 = 1, c_2 = 4$
 
-### 5. **False**.
-$2^{n+1} = 2 \cdot 2^n$, which grows faster than $2^n$. Thus, $2^{n+1}$ is not $O(2^n)$.
+### 5. **True**.
+Explanation:
 
 $$
 2 \cdot 2^n \leq c \cdot 2^n
@@ -98,7 +98,7 @@ $$
 2 \leq c
 $$
 
-Which implies that the statement is false.
+Which implies that the statement is true, because inequality is true for $C \geq 2$.
 
 ### 6. **False**.
 $3^n$ grows exponentially faster than $2^n$, so it cannot be bounded above by $2^n$. Therefore, the statement is false.
