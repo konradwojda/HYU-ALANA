@@ -27,3 +27,11 @@ Which gives us separate groups of strongly connected components as follows:
 ![alt text](image-2.png)
 
 # Exercise 3
+
+The number of strongly connected components (SCCs) in a graph either **decreases** or **remains the same** when a new edge is added.
+
+- Number of SCCs **decreases**:  
+If the new edge connects two previously separate SCCs, merging them into one.
+
+- Number of SCCs **remains the same**:  
+If the new edge connects two vertices already in the same SCC.
